@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 'Protest Revolution', sans-serif;
+}
+.main_container{
+  background-color: rgb(14, 9, 37);
+  height: 210px;
+  width: 800px;
+  color: white;
+  border-radius: 8px;
+  margin-left: 350px;
+  margin-top: 200px;
+}
+.title{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  color: #8A2BE2;
+}
+.input_box {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-left: 30px;
+
+}
+.copy_button{
+  margin-left: 10px;
+  width: 150px;
+  height: 55px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+.generate_button{
+  margin-left: 10px;
+  width: 150px;
+  height: 55px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+.copy_button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.generate_button:hover{
+  background-color: blue;
+  cursor: pointer;
+}
